@@ -1,0 +1,157 @@
+main {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 10px;
+    border: 1px solid white;
+    padding: 10px
+}
+
+/* Section Edit and Preview style */
+.edit {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.preview {
+    height: 100dvh;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+/* Navbar style */
+.nav-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* ================== Edit & Create ================= */
+/* Profile style */
+.profile-container {
+    padding: 10px;
+    margin: auto;
+}
+
+.profile-container h1, .profile-container p {
+    margin: 0;
+
+}
+
+.profile-container p {
+    margin-bottom: 3px;
+    ;
+}
+
+
+.input-form {
+    display: grid;
+    grid-template-columns: repeat(minmax(200px, 1fr));
+    width: fit-content;
+    gap: 2px;
+
+}
+
+
+
+.personal-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(max-content, 200px));
+}
+
+/* Professional Summary */
+.summary-conatiner {
+    padding: 10px;
+    border: 1px solid white;
+    margin: auto;
+
+}
+
+.summary-conatiner article {
+    margin: 2px;
+}
+
+.summary-conatiner h1, .summary-conatiner small {
+    margin: auto;
+    text-align: justify;
+}
+
+
+
+.summary-body textarea {
+    width: -webkit-fill-available;
+}
+
+.summary-body small {
+    /* float: inline-end; */
+}
+
+
+/* ================= Preview ====================== */
+/* ResumePreview */
+.profile-header {
+    width: 100%;
+
+}
+
+.user-name {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
+    text-align: center;
+    width: 100%;
+
+}
+
+.user-name h2, .user-name h4 {
+    padding: 2px;
+    margin: auto;
+    text-transform: capitalize;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 3px;
+}
+
+.contact-info div {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3px;
+
+}
+
+.resume-icon {
+    font-size: 16px !important;
+    margin: auto;
+}
+
+.contact-info div p {
+    justify-content: center;
+}
+
+/* PreviewSummary */
+.preview-summary {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.preview-body p {
+    text-justify: distribute
+}
