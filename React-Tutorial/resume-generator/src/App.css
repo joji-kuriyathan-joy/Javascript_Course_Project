@@ -75,7 +75,7 @@ main {
 /* Professional Summary */
 .summary-conatiner {
     padding: 10px;
-    border: 1px solid white;
+    border-top: 1px solid white;
     margin: auto;
 
 }
@@ -95,9 +95,25 @@ main {
     width: -webkit-fill-available;
 }
 
-.summary-body small {
-    /* float: inline-end; */
+/* Experience  */
+.experience-container {
+    padding: 10px;
+    border-top: 1px solid white;
+    margin: auto;
 }
+
+.experience-container h1, .experience-container small {
+    margin: auto;
+    text-align: justify;
+
+}
+
+.emp-container {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+
 
 
 /* ================= Preview ====================== */

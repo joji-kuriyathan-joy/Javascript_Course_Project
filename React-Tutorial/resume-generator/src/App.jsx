@@ -5,11 +5,13 @@ import ResumePreview from "./components/ResumePreview.jsx";
 import ProfessionalSummary from "./components/ProfessionalSummary.jsx";
 import SummaryPreview from "./components/SummaryPreview.jsx";
 import Experience from "./components/Experience.jsx";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function App() {
     // State Management
     const [navtitle, setNavtitle] = useState("");
+
+
     const [userProfile, setUserProfile] = useState({
         comp_title: "Profile",
         comp_desc: "Provide your personal details",
